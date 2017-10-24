@@ -41,7 +41,7 @@ table {
 /*  HTML 5 and browser default style reset */
 
 .nav {
-    font-size: 30px;
+    font-size: 200%;
     text-align: center;
     margin: 30px auto;
     font-family: 'Indie Flower', cursive;
@@ -56,16 +56,15 @@ img{
 
 
 .grid{
-    width: 875px;
+    width: 100%;
     margin: auto;
-    margin-top: 5px;
     line-height: 0;
     -webkit-column-count: 3;
     -webkit-column-gap:  10px;
     -moz-column-count: 3;
     -moz-column-gap: 10px;
     column-count: 3;
-    column-gap: 10px;
+    column-gap: 5px;
 }
 
 .grid img{
